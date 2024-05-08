@@ -1,6 +1,7 @@
 import { menues } from "./menu.js";
 import mostrarProductos from "./productosDisponibles.js";
 import { anadirProductos } from "./agregarProducto.js";
+import { quitarProducto } from "./quitarProducto.js";
 
 export let carrito = []
 let repetition= true
@@ -16,7 +17,7 @@ while (repetition) {
                 anadirProductos()
                 break;
             case 3:
-
+                quitarProducto()
             default:
                 break;
         }
