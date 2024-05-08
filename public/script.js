@@ -14,6 +14,9 @@ while (repetition) {
                 break;
             case 2:
                 anadirProductos()
+                break;
+            case 3:
+
             default:
                 break;
         }
