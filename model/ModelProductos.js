@@ -49,6 +49,6 @@ let camiseta ={
     vendidos:0,
     enCanasta:0
 }
-const productos =  {leche,sal,azucar,arroz,camiseta}
+let productos =  {leche,sal,azucar,arroz,camiseta}
 
 export default productos
